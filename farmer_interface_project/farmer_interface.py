@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load saved model and label encoder
-model = joblib.load("crop_model.pkl")
-label_encoder = joblib.load("label_encoder.pkl")
+model = joblib.load("farmer_interface_project/crop_model.pkl")
+label_encoder = joblib.load("farmer_interface_project/label_encoder.pkl")
 
 st.title("🌾 Smart Crop Recommendation")
 
